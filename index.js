@@ -4,8 +4,8 @@ const Telegraf = require('telegraf')
 const { Extra, Markup } = require('telegraf')
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest
 
-const tokenTelegram = config.get('tokens.TELEGRAM_TOKEN')
-const tokenPoster = config.get('tokens.POSTER_TOKEN')
+const tokenTelegram = config.get('TELEGRAM_TOKEN')
+const tokenPoster = config.get('POSTER_TOKEN')
 
 const apiPoster = 'https://folgabar.joinposter.com/api/'
 const apiPosterMethod = 'dash.getTransactions'
